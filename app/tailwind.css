@@ -2,11 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
+@layer base {
+	@font-face {
+		font-family: "General Sans";
+		src: url("/fonts/GeneralSans-Extralight.otf");
+		font-weight: 200;
+	}
+	@font-face {
+		font-family: "General Sans";
+		src: url("/fonts/GeneralSans-Light.otf");
+		font-weight: 300;
+	}
+	@font-face {
+		font-family: "General Sans";
+		src: url("/fonts/GeneralSans-Regular.otf");
+		font-weight: 400;
+	}
+	@font-face {
+		font-family: "General Sans";
+		src: url("/fonts/GeneralSans-Medium.otf");
+		font-weight: 500;
+	}
+	@font-face {
+		font-family: "General Sans";
+		src: url("/fonts/GeneralSans-Semibold.otf");
+		font-weight: 600;
+	}
+	@font-face {
+		font-family: "General Sans";
+		src: url("/fonts/GeneralSans-Bold.otf");
+		font-weight: 700;
+	}
+	html,
+	body {
+		@apply bg-light text-dark;
+	}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+	* {
+		font-family: "General Sans", sans-serif;
+	}
+}
+
+@layer components {
+	.btn {
+		@apply px-8 py-3 bg-secondary text-light rounded font-medium text-lg shadow-lg;
+	}
+
+	.service {
+		@apply grid grid-cols-2 p-6 bg-white shadow-2xl gap-4;
+
+		& .service__left {
+			@apply flex flex-col items-center justify-between gap-6;
+
+			& .service__title {
+				@apply text-3xl font-medium text-primary;
+			}
+		}
+
+		& .service__desc {
+			@apply flex items-center justify-center;
+		}
+	}
+
+	.gallery-img {
+		@apply object-cover w-full h-[400px] transition-all duration-500 hover:scale-[101%];
+
+		&:first-child,
+		&:last-child {
+			@apply col-span-2;
+		}
+	}
 }
