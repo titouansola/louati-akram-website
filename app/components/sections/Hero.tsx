@@ -9,12 +9,15 @@ export function Hero() {
 		>
 			<div className={'md:w-10/12 lg:w-2/3'}>
 				<h1 className={'text-3xl md:text-5xl font-semibold mb-4'}>
-					L-A Multiservices, lorem ipsum zrgz zerhlkgjh argh arlgkjzhfg dhvjkh
-					rglizrtuhkg
+					L-A Multiservices, vous accompagne pour réaliser toutes vos envies
 				</h1>
 				<p className={'font-medium'}>
-					Lorem ipsum dolor sit amet consectetur. Ac posuere aenean tellus
-					tempus dis sollicitudin justo.
+					Avec 25 ans d'expérience en tant que maçon à Ollioules, nous vous
+					accompagnons dans tous vos{' '}
+					<b>projets de rénovation intérieure et extérieure.</b>
+					<br />
+					Cuisine, salle de bain, chambre, terrasse ou jardin, Louati Akram
+					écoute, s'adapte et vous <b>conseille sur tous vos besoins.</b>
 				</p>
 			</div>
 			<Link.Button>Demander un devis gratuit</Link.Button>

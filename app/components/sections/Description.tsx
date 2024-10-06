@@ -10,15 +10,23 @@ export function Description() {
 	return (
 		<section className={'py-main-2'}>
 			<h2 className={'font-semibold text-3xl'}>
-				Louati Akram, maçon à Ollioules
+				Rénovation intérieure et extérieure
 			</h2>
 			<p className={'my-6'}>
-				Lorem ipsum dolor sit amet consectetur. Nulla molestie porttitor ac
-				vitae ut tincidunt risus leo odio. Arcu nunc lorem amet eget sit gravida
-				mollis nisl. A penatibus gravida sed eget purus quam vulputate tortor.
-				Faucibus eleifend odio ac pretium semper. Ipsum vel amet dolor erat.
-				Felis bibendum proin non tortor porttitor. Elementum pharetra ut sit
-				orci sit.
+				Louati Akram, <b>maçon à Ollioules</b>, réalise vos rénovations
+				intérieures : cuisine, salle de bain, chambre à coucher, penderie et
+				salon.
+				<br />
+				Ainsi qu'à l'extérieur : terrasse, véranda, balcon et jardin.
+				<br />
+				<b>Votre satisfaction est centrale</b> dans le suivi de votre chantier,
+				c'est pourquoi LA-Multiservices se rend disponible pour{' '}
+				<b>répondre à toutes vos questions</b> et vous fournir des{' '}
+				<b>conseils avisés et expérimentés.</b>
+				<br />
+				La réalisation nécessite une <b>qualité exemplaire</b>, garantie par{' '}
+				<b>plus de 25 ans d'expérience</b> dans la rénovation intérieure et
+				extérieure.
 			</p>
 			<ul className={'flex flex-col gap-3 font-medium'}>
 				{qualities.map((quality) => (
