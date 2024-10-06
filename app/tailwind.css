@@ -49,7 +49,7 @@
 	}
 
 	.service {
-		@apply grid grid-cols-2 p-6 bg-white shadow-2xl gap-4;
+		@apply flex flex-col lg:grid lg:grid-cols-2 p-6 bg-white shadow-2xl gap-4;
 
 		& .service__left {
 			@apply flex flex-col items-center justify-between gap-6;

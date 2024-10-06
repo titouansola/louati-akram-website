@@ -7,8 +7,8 @@ export function Hero() {
 				'bg-hero-pattern bg-center flex flex-col gap-7 text-light px-main py-main-3'
 			}
 		>
-			<div className={'md:w-1/2 lg:w-8/12'}>
-				<h1 className={'text-5xl font-semibold'}>
+			<div className={'md:w-10/12 lg:w-2/3'}>
+				<h1 className={'text-5xl font-semibold mb-4'}>
 					L-A Multiservices, lorem ipsum zrgz zerhlkgjh argh arlgkjzhfg dhvjkh
 					rglizrtuhkg
 				</h1>

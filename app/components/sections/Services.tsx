@@ -1,9 +1,13 @@
 export function Services() {
 	return (
 		<section className={'py-main-2 bg-pattern'}>
-			<div className={'flex items-center justify-between gap-10 w-2/3 m-auto'}>
-				<div className={'flex flex-col gap-4 border-2 border-primary p-8'}>
-					<h2 className={'text-4xl font-semibold'}>
+			<div
+				className={
+					'flex items-center justify-between gap-10 lg:w-2/3 max-lg:px-main m-auto max-lg:flex-col'
+				}
+			>
+				<div className={'border-2 border-primary p-8'}>
+					<h2 className={'text-4xl font-semibold mb-4'}>
 						25 ans d'expérience à Ollioules
 					</h2>
 					<p>
@@ -13,7 +17,7 @@ export function Services() {
 						dolor arcu. Vel sit et lorem at.
 					</p>
 				</div>
-				<div className={'flex flex-col gap-8'}>
+				<div className={'flex lg:flex-col gap-8'}>
 					<div className={'service'}>
 						<div className={'service__left'}>
 							<img
