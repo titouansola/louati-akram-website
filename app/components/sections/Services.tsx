@@ -3,7 +3,7 @@ export function Services() {
 		<section className={'py-main-2 bg-pattern'}>
 			<div
 				className={
-					'flex items-center justify-between gap-10 lg:w-2/3 max-lg:px-main m-auto max-lg:flex-col'
+					'flex items-center justify-between gap-10 lg:w-2/3 lg:min-w-[1100px] max-lg:px-main m-auto max-lg:flex-col'
 				}
 			>
 				<div className={'border-2 border-primary p-8'}>
@@ -17,7 +17,7 @@ export function Services() {
 						dolor arcu. Vel sit et lorem at.
 					</p>
 				</div>
-				<div className={'flex lg:flex-col gap-8'}>
+				<div className={'flex max-md:flex-col md:flex-row lg:flex-col gap-8'}>
 					<div className={'service'}>
 						<div className={'service__left'}>
 							<img

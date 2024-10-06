@@ -26,7 +26,7 @@ export default function Index() {
 				<Hero />
 				<Services />
 				<Gallery />
-				<div className={'md:w-10/12 lg:w-2/3 m-auto'}>
+				<div className={'w-10/12 lg:w-2/3 m-auto'}>
 					<Description />
 					<div className={'h-[2px] bg-secondary'} />
 					<LastCallToAction />

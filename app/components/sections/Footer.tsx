@@ -3,7 +3,11 @@ import { Link } from '~/components/links/Link';
 export function Footer() {
 	return (
 		<footer className={'bg-secondary text-white p-main'}>
-			<div className={'grid grid-cols-3 gap-10 mb-main'}>
+			<div
+				className={
+					'max-md:flex max-md:flex-col md:grid md:grid-cols-3 gap-10 mb-main'
+				}
+			>
 				<div>
 					<h2 className={'font-semibold text-3xl mb-4'}>Louati Akram</h2>
 					<p>

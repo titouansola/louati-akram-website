@@ -16,6 +16,7 @@ export default {
 				dark: '#170501',
 			},
 			spacing: {
+				'main-sm': '25px',
 				main: '50px',
 				'main-2': '100px',
 				'main-3': '150px',

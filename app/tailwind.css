@@ -45,7 +45,7 @@
 
 @layer components {
 	.btn {
-		@apply px-8 py-3 bg-secondary text-light rounded font-medium text-lg shadow-lg;
+		@apply px-8 py-3 bg-secondary text-light rounded font-medium md:text-lg shadow-lg;
 	}
 
 	.service {

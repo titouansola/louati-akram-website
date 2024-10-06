@@ -8,7 +8,7 @@ export function Gallery() {
 			>
 				Galerie photo
 			</h2>
-			<div className={'grid grid-cols-3 gap-2'}>
+			<div className={'flex md:grid md:grid-cols-3 gap-2 overflow-x-auto'}>
 				{new Array(7)
 					.fill(null)
 					.map((_, i) => i + 1)

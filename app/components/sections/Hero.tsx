@@ -8,7 +8,7 @@ export function Hero() {
 			}
 		>
 			<div className={'md:w-10/12 lg:w-2/3'}>
-				<h1 className={'text-5xl font-semibold mb-4'}>
+				<h1 className={'text-3xl md:text-5xl font-semibold mb-4'}>
 					L-A Multiservices, lorem ipsum zrgz zerhlkgjh argh arlgkjzhfg dhvjkh
 					rglizrtuhkg
 				</h1>
