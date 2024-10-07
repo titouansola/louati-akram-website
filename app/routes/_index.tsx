@@ -13,7 +13,7 @@ export const meta: MetaFunction = () => {
 		{
 			name: 'description',
 			content:
-				'Louati Akram maçon à Ollioules, réalise vos travaux de rénovation, peinture et maçonnerie.',
+				'Louati Akram maçon à Toulon, réalise vos travaux de rénovation, peinture et maçonnerie.',
 		},
 	];
 };

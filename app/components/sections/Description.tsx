@@ -13,9 +13,8 @@ export function Description() {
 				Rénovation intérieure et extérieure
 			</h2>
 			<p className={'my-6'}>
-				Louati Akram, <b>maçon à Ollioules</b>, réalise vos rénovations
-				intérieures : cuisine, salle de bain, chambre à coucher, penderie et
-				salon.
+				Louati Akram, <b>maçon à Toulon</b>, réalise vos rénovations intérieures
+				: cuisine, salle de bain, chambre à coucher, penderie et salon.
 				<br />
 				Ainsi qu'à l'extérieur : terrasse, véranda, balcon et jardin.
 				<br />

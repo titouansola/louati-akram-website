@@ -9,7 +9,7 @@ export function Services() {
 				}
 			>
 				<div className={'border-2 border-primary p-8'}>
-					<h2 className={'text-4xl font-semibold'}>Maçon à Ollioules</h2>
+					<h2 className={'text-4xl font-semibold'}>Maçon à Toulon</h2>
 					<p className={'my-4'}>
 						Louati Akram vous propose ses services de{' '}
 						<b>maçonnerie et peinture</b> pour tous vos projets de rénovation.

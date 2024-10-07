@@ -12,7 +12,7 @@ export function Hero() {
 					L-A Multiservices, vous accompagne pour réaliser toutes vos envies
 				</h1>
 				<p className={'font-medium'}>
-					Avec 25 ans d'expérience en tant que maçon à Ollioules, nous vous
+					Avec 25 ans d'expérience en tant que maçon à Toulon, nous vous
 					accompagnons dans tous vos{' '}
 					<b>projets de rénovation intérieure et extérieure.</b>
 					<br />
